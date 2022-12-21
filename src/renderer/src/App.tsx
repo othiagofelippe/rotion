@@ -1,6 +1,11 @@
+import './styles/global.css';
+
 export function App() {
   return (
-    <h1 style={{fontFamily: 'Inter'}}>Hello World</h1>
-  )
+    <div className='flex'>
+      <h1 className="">Hello World</h1>
+      <h1 className="">Hello World</h1>
+    </div>
+  );
 }
 
