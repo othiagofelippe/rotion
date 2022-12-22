@@ -9,8 +9,8 @@ export function Routes() {
     <Router
       main={
         <Route path="/" element={<Default />}>
-          <Route path="/blank" element={<Blank />} />
-          <Route path="/" element={<Document />} />
+          <Route path="/" element={<Blank />} />
+          <Route path="/document" element={<Document />} />
         </Route>
       }
     />
